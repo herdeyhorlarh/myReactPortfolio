@@ -1,0 +1,102 @@
+.nav{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.mobileHeader{
+    display: none;
+}
+.nav .nav--item{
+    flex-grow: 1;
+}
+
+.nav .nav--brand{
+    flex-basis: 10%;
+}
+
+.nav--brand img{
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav .nav--links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav .nav--links a{
+    text-decoration: none;
+    color: #A7A7A7;
+    font-size: 1.6rem;
+    padding: 0 2rem;
+}
+
+.whatsapp {
+    width: 30px;
+    height: 30px;
+}
+.open{
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    
+.nav .nav--links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: red;
+    display: none;
+}
+.mobileHeader{
+    display: block;
+    
+    /* background-color: rgba(0, 128, 0, 0.089); */
+}
+.mobileLink a{
+color: lightsalmon;
+}
+.mobileLink{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.089);
+
+
+    animation-name: slidingBar;
+    animation-duration: .5s;
+}
+ @keyframes slidingBar {
+    0%{transform: translateX(-50px);}
+ }
+ 
+ .mobileLink:last-child{
+    border-bottom: none;
+ }
+.mobilContLink{
+    margin: 15px;
+}
+
+.open{
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display:block;
+}
+}
+
+
+
+

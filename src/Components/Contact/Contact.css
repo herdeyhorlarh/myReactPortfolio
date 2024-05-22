@@ -1,0 +1,72 @@
+.con {
+  text-align: center;
+  color: darkblue;
+  font-size: 3rem;
+}
+.myform {
+    
+    background-color: #c2c4cfcc; 
+    padding: 20px;
+    border-radius: 10px;
+
+   } 
+  .myname {
+    display: block;
+    margin-bottom: 5px;
+    color: whitesmoke; 
+    font-size: 1.5rem;
+  }
+  .email {
+    display: block;
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  .message {
+    display: block;
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  
+ input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; ;
+  }
+ textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; 
+    resize: none;
+  }
+  .button {
+    width: 30%;
+    padding: 10px;
+    border: 50px;
+    border-radius: 5px;
+    background-color: blue; 
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* .button:hover { */
+    /* background-color: #0056b3; Darker blue on hover */
+  /* } */
+  
